@@ -2,9 +2,62 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Chuyển đổi tiền tệ</title>
 </head>
 <body>
-$END$
+    <form>
+        <table>
+            <tbody>
+                <tr>
+                    <td> Amount</td>
+                    <td> From Currrency</td>
+                    <td> To Curency</td>
+                </tr>
+            <tr>
+                <td>
+                    <input type="number" id="So tien">
+                </td>
+                <td>
+                    <select id="From">
+                        <option> USD</option>
+                        <option> Viet nam</option>
+                    </select>
+                </td>
+                <td>
+                    <select id="To">
+                        <option> Viet nam</option>
+                        <option> USD</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="button" onclick="show()"; value="Convert" >
+                </td>
+            </tr>
+
+            </tbody>
+        </table>
+    </form>
+
+    <script>
+        function show() {
+            let ketqua;
+            let tien=parseInt(document.getElementById('So tien').value);
+            let bandau=document.getElementById('From').value;
+            let sau=document.getElementById('To').value;
+            if (bandau== "VietNam"){
+                if (sau=="USD")
+                    ketqua=(tien/23000);
+            }
+            if (bandau== "USD"){
+                if (sau=="VietNam")
+                    ketqua=(tien*23000);
+            }
+                alert("Resuilt :"+ketqua);
+
+
+
+        }
+    </script>
+
 </body>
 </html>
