@@ -30,8 +30,9 @@
                     </select>
                 </td>
                 <td>
-                    <input type="button" onclick="show()"; value="Convert" >
+                    <input type="submit"  value="Convert" onclick="doitien()" >
                 </td>
+                <td id="resuilt:"></td>
             </tr>
 
             </tbody>
@@ -39,20 +40,28 @@
     </form>
 
     <script>
-        function show() {
+        function doitien() {
             let ketqua;
+
             let tien=parseInt(document.getElementById('So tien').value);
+
             let bandau=document.getElementById('From').value;
+
             let sau=document.getElementById('To').value;
+
+            let result;
+
             if (bandau== "VietNam"){
                 if (sau=="USD")
                     ketqua=(tien/23000);
+                document.getElementById("ketqua").innerHTML=(+ketqua)
             }
             if (bandau== "USD"){
                 if (sau=="VietNam")
                     ketqua=(tien*23000);
+                document.getElementById("ketqua").innerHTML=(+ketqua)
             }
-                alert("Resuilt :"+ketqua);
+                alert("resuilt :"+ketqua);
 
 
 
