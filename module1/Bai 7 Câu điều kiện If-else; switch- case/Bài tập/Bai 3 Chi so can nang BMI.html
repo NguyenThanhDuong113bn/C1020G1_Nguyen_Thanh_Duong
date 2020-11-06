@@ -2,9 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Chi so can nang</title>
 </head>
 <body>
-$END$
+<!--    <form>-->
+<!--        <p>  Nhập chiều cao</p>-->
+<!--        <input type="number" id=" cao">-->
+<!--        <br>-->
+<!--        <p> Nhập cân nặng</p>-->
+<!--        <input type="number" id=" nang">-->
+<!--        <br>-->
+<!--        <br>-->
+<!--        <button type="button" onclick="tinh()">Tính</button>-->
+<!--        <p id="kq"></p>-->
+
+<!--    </form>-->
+
+<!--    <script>-->
+
+<!--        function tinh() {-->
+
+
+<!--            let weight = parseFloat(document.getElementById("nang").value);-->
+<!--            let height = parseFloat(document.getElementById("cao").value);-->
+<!--            let BMI =(weight/(height*height) );-->
+
+<!--            if (BMI < 18)-->
+<!--                    document.getElementById("kq").innerHTML=("Chỉ số BMI là :"+BMI + "<br> Underweight")-->
+<!--                    else if (BMI <25.0)-->
+<!--                        document.getElementById("kq").innerHTML=("Chỉ số BMI là :"+BMI + "<br> Normal")-->
+<!--                        else if (BMI <30.0)-->
+<!--                            document.getElementById("kq").innerHTML=("Chỉ số BMI là :"+BMI +"<br> Overweight")-->
+<!--                else-->
+<!--                    document.getElementById("kq").innerHTML=("Chỉ số BMI là :"+BMI + "<br> Obese")-->
+<!--                }-->
+<!--    </script>-->
+
+        <script>
+            let weight =prompt("Enter your weight");
+                       let height = prompt("Enter your height");
+                        let BMI =(weight/(height*height) );
+
+                        if(BMI<18)
+                            document.write("Under weight");
+                          else  if (BMI<25)
+                                document.write("Normal");
+                               else if (BMI<30)
+                                    document.write("Over weight");
+                               else
+                                   document.write("Obese");
+        </script>
+
+<!--        </form>-->
+
 </body>
 </html>

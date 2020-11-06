@@ -2,9 +2,39 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d01740-2343-4727-8688-19c7c404a2dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bai 3 Git va HTML/Bài tập/bai1 Tao danh sach.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bai 3 Git va HTML/Thực hành/Thuc hanh su dung cac the HTML co ban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Bài tập/Bai 3 Chi so can nang BMI.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Bài tập/Bai 4 Ung dung vui.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Luyện tập cấu trúc câu đk 01/Bai tap.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Luyện tập cấu trúc câu đìu kiện 02/Bai tap dieu kien.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Thực hành/Bai 4 Thuc hanh su kien chuot.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Thực hành/Bai 5 Thuc hanh su kien ban phim.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Thực hành/add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Thực hành/employee.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 3 Git va HTML/Thực hành/abc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 3 Git va HTML/Thực hành/abc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 4 Form va  Table/Bài tập/Bai 1 Tao form don gian.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 4 Form va  Table/Bài tập/Bai 1 Tao form don gian.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 4 Form va  Table/Bài tập/Bai 2 Giao dien dang ky nguoi dung.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 4 Form va  Table/Bài tập/Bai 2 Giao dien dang ky nguoi dung.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 4 Form va  Table/Bài tập/Bai 3 Tao form lay survey khach hang.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 4 Form va  Table/Bài tập/Bai 3 Tao form lay survey khach hang.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 4 Form va  Table/Bài tập/Bai 4 Tao bang don gian.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 4 Form va  Table/Bài tập/Bai 4 Tao bang don gian.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 4 Form va  Table/Bài tập/Bai 5 Thoi khoa bieu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 4 Form va  Table/Bài tập/Bai 5 Thoi khoa bieu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 4 Form va  Table/Bài tập/abc.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 4 Form va  Table/Bài tập/abc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 4 Form va  Table/Bài tập/mycss.css" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 4 Form va  Table/Bài tập/mycss.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 4 Form va  Table/Thực hành/Bai 4 Tao bang nang cao.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 4 Form va  Table/Thực hành/Bai 4 Tao bang nang cao.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 4 Form va  Table/Thực hành/Taoform tim kiem.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 4 Form va  Table/Thực hành/Taoform tim kiem.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 4 Form va  Table/Thực hành/bai 3 Tao bang co ban.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 4 Form va  Table/Thực hành/bai 3 Tao bang co ban.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 5 Javascript/Thực hành/Bai 1 Thực hành hiển thị đầu ra.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 5 Javascript/Thực hành/Bai 1 Thực hành hiển thị đầu ra.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 5 Javascript/Thực hành/bai 2 Nhung Javascript.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 5 Javascript/Thực hành/bai 2 Nhung Javascript.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Bài tập/Bai 1 Cau lenh Switch-case.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Bài tập/Bai 1 Cau lenh Switch-case.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Bài tập/Bai 2 May tinh don gian.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Bài tập/Bai 2 May tinh don gian.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Thực hành/Bai 1 Kiểm tra năm nhuận.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Thực hành/Bai 1 Kiểm tra năm nhuận.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Thực hành/Bai 2 Luyen tap với If ..else ..if.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Thực hành/Bai 2 Luyen tap với If ..else ..if.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Thực hành/Bai 3 Luyen tap switch - case.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Thực hành/Bai 3 Luyen tap switch - case.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Thực hành/ex0.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Thực hành/ex0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bài 6 Biến kiểu dữ liệu và toán tử/Bài tập/Bai 1 Bien kieu du lieu va toan tu.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 6 Biến kiểu dữ liệu và toán tử/Bài tập/Bai 1 Bien kieu du lieu va toan tu.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bài 6 Biến kiểu dữ liệu và toán tử/Bài tập/Bai 4 Ung dung may tinh.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 6 Biến kiểu dữ liệu và toán tử/Bài tập/Bai 4 Ung dung may tinh.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bài 6 Biến kiểu dữ liệu và toán tử/Bài tập/Bai 5 Ung dung chuyen doi tien te.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 6 Biến kiểu dữ liệu và toán tử/Bài tập/Bai 5 Ung dung chuyen doi tien te.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bài 6 Biến kiểu dữ liệu và toán tử/Bài tập/jav.js" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 6 Biến kiểu dữ liệu và toán tử/Bài tập/jav.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CASESTUDY/Task 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/CASESTUDY/Task 1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +44,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
         <option value="HTML File" />
       </list>
     </option>
@@ -32,7 +64,8 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/C0420G1_Nguyenthanhduong_module1" />
+    <property name="last_opened_file_path" value="D:/C0420G1_Nguyenthanhduong_module1/Baitap_dieukien/baitap/baitapungdungmaytinh.html" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -52,6 +85,13 @@
       <updated>1603696832536</updated>
       <workItem from="1603696833721" duration="314000" />
       <workItem from="1604030772017" duration="2795000" />
+      <workItem from="1604154538784" duration="36119000" />
+      <workItem from="1604371586874" duration="16038000" />
+      <workItem from="1604410725884" duration="9596000" />
+      <workItem from="1604451966078" duration="26480000" />
+      <workItem from="1604537382096" duration="13508000" />
+      <workItem from="1604585432792" duration="4859000" />
+      <workItem from="1604626012787" duration="16234000" />
     </task>
     <servers />
   </component>
@@ -59,9 +99,13 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="493" y="127" key="FileChooserDialogImpl" timestamp="1604039057215">
+    <state x="489" y="188" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604154665315">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="493" y="127" key="FileChooserDialogImpl/62.0.1304.768@62.0.1304.768" timestamp="1604039057215" />
+    <state x="489" y="188" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1304.768@62.0.1304.768" timestamp="1604154665315" />
+    <state x="493" y="127" key="FileChooserDialogImpl" timestamp="1604648006887">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="493" y="127" key="FileChooserDialogImpl/62.0.1304.768@62.0.1304.768" timestamp="1604648006887" />
   </component>
 </project>

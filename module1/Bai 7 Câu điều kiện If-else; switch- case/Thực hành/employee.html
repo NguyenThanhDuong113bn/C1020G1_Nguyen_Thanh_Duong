@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<script>
+            let login = prompt('Moi ban nhap:','');
+            let message = (login == 'Employee')?
+                'Hello':
+                (login == 'Director')?
+                    'Greeting':
+                        (login =='')?
+                    'No login':
+                    '';
+            alert(message);
+            // let login = prompt('Moi ban nhap:','');
+            // let message = (login == 'Employee') ?
+            //     'Hello' :
+            //     (login == 'Director') ?
+            //         'Greetings' :
+            //         (login == '') ?
+            //             'No login' :
+            //             '';
+            // alert(message)
+</script>
 </body>
 </html>

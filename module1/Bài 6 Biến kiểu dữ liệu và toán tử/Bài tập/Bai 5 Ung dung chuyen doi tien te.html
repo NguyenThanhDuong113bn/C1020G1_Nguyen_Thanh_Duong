@@ -18,50 +18,49 @@
                     <input type="number" id="So tien">
                 </td>
                 <td>
-                    <select id="From">
-                        <option> USD</option>
-                        <option> Viet nam</option>
+                    <select id="From" >
+                        <option value="USD"> USD</option>
+                        <option value="VN"> Viet nam</option>
                     </select>
                 </td>
                 <td>
                     <select id="To">
-                        <option> Viet nam</option>
-                        <option> USD</option>
+                        <option value="VN"> Viet nam</option>
+                        <option value="USD"> USD</option>
                     </select>
                 </td>
                 <td>
-                    <input type="submit"  value="Convert" onclick="doitien()" >
+                    <input type="button"  value="Convert" id="convert" >
                 </td>
-                <td id="resuilt:"></td>
             </tr>
-
             </tbody>
         </table>
     </form>
+    <p id="result"></p>
 
     <script>
+        document.getElementById('convert').addEventListener('click', doitien);
+                                            // Them su kien
         function doitien() {
             let ketqua;
 
             let tien=parseInt(document.getElementById('So tien').value);
-
             let bandau=document.getElementById('From').value;
 
-            let sau=document.getElementById('To').value;
+            let sau=document.getElementById('To').value;h
 
             let result;
 
-            if (bandau== "VietNam"){
+            if (bandau== "VN"){
                 if (sau=="USD")
                     ketqua=(tien/23000);
-                document.getElementById("ketqua").innerHTML=(+ketqua)
             }
             if (bandau== "USD"){
-                if (sau=="VietNam")
+                if (sau=="VN")
                     ketqua=(tien*23000);
-                document.getElementById("ketqua").innerHTML=(+ketqua)
             }
-                alert("resuilt :"+ketqua);
+            document.getElementById('result').innerText = ketqua ;
+
 
 
 
