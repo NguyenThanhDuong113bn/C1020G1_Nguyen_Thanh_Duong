@@ -2,9 +2,58 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<!--bai 1  .Sử dụng vòng lặp để đếm từ 1 đến 100. Khi số là 99, -->
+<!--        hiển thị hộp thoại thông báo là đã hoàn thành.-->
+<!--    <script>-->
+<!--    // for(let i=1;i<=100;i++){-->
+<!--    //  if(i<99 )-->
+<!--    //      document.write(i+" " );-->
+<!--    //  else if(i==99)-->
+<!--    //      document.write("Hoàn thành");-->
+ }
+<!--    // bai 2 ử dụng hàm prompt() để lấy thông tin nhiệt độ hiện tại được nhập bởi người truy cập. Nếu nhiệt độ-->
+<!--    // ập vào trên 100, yêu cầu người dùng giảm nhiệt độ. Nếu nhiệt độ dưới 20,-->
+<!--    //     yêu cầu người dùng tăng nhiệt độ.-->
+<!--    // </script>-->
+
+<script>
+    // Bài 2:
+
+     // do{
+     //     let a = prompt('Nhap nhiet do:');
+     // }while (a<20 || a>100)
+     //        document.write(" Tang nhiet do:"+ a)
+
+
+    // Bài 6: Tính tổng của 30 số chia hết cho 7 đầu tiên trong các số tự nhiên.
+
+
+    // let num=0;
+    // let a=7;
+    // result= 0;
+    // while (num<30){
+    //     if(a%7==0){
+    //         result +=a;
+    //         num++;
+    //     }
+    //     a++;
+    // }
+    // alert(result);
+
+
+    // Bài 7:
+    for (let i=1;i<=100;i++) {
+        if (i % 3 == 0 && i % 5 == 0) {
+            document.write("FizzBuzz ");
+        } else if (i % 5 == 0) {
+            document.write("Buzz ");
+        } else if (i % 3 == 0) {
+            document.write("Fizz ");
+        } else document.write(i + " ");
+    }
+</script>
 </body>
 </html>

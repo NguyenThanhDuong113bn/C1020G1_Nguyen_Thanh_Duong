@@ -39,5 +39,60 @@
 <!--            alert(" " + S);-->
 <!--        </script>-->
 
+<!--        Bài 6: Giai phương trình bậc 1: (ax+b=0)-->
+
+<!--            <script>-->
+<!--                let a=parseInt(prompt("Nhập a:"));-->
+<!--                let b=parseInt(prompt("Nhập b:"));-->
+
+<!--                if(a===0) {-->
+<!--                    if (b === 0)-->
+<!--                        alert('Phuong trinh vo so nghiem')-->
+<!--                    else alert('Phương trình có nghiệm')-->
+<!--                } else alert('Phương trình vô nghiệm')-->
+<!--            </script>-->
+
+<!--        Bai 8:  Kiểm tra xem một số nhập vào có phải là tuổi của một người không.-->
+<!--                Một số nguyên là tuổi của một người khi nhỏ 120 và lơn hơn 0.-->
+
+<!--                <script>-->
+<!--                    let age= parseInt(prompt("Nhap so tuoi"))-->
+<!--                    if(age<120 && age>0)-->
+<!--                            alert( 'age hop le');-->
+<!--                                alert('age khong hop le');-->
+
+<!--                </script>-->
+<!--// // Bài 9:-->
+<!--// let a=parseInt(prompt("Nhập độ dài cạnh thứ nhất: "));-->
+<!--// let b=parseInt(prompt("Nhập độ dài cạnh thứ hai: "));-->
+<!--// let c=parseInt(prompt("Nhập độ dài cạnh thứ ba: "));-->
+<!--//-->
+<!--// if(a>0 && b>0 && c>0){-->
+<!--//     if(a+b>c){-->
+<!--//         if(a+c>b){-->
+<!--//             if(b+c>a)-->
+<!--//                 alert("Đây là độ dài của 3 cạnh 1 tam giác");-->
+<!--//             else alert("Nhập sai rồi");-->
+<!--//         } else alert("Nhập sai rồi");-->
+<!--//     } else alert("Nhập sai rồi");-->
+<!--// }  else alert("Nhập sai rồi");-->
+
+
+
+
+Bài 10: Viết chương trình tính giá điện.
+
+       <script>
+            let tieuthu=parseInt(prompt('Nhap so dien tieu thu (kwh):'));
+
+            let giadien;
+            if( tieuthu > 100) giadien=4000;
+                else  if (tieuthu >50 ) giadien= 3500;
+                    else  giadien= 3000;
+            let total= giadien * tieuthu;
+                    alert("total gia:" + giadien);
+        </script>
+
+
 </body>
 </html>
