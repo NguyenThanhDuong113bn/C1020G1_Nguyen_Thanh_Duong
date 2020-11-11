@@ -2,9 +2,85 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<button onclick="playGame()">Chơi</button>
+<script>
+    // Bài 3
+    // let a = 1;
+    // let b = 1;
+    // let c;
+    // document.writeln(a);
+    // document.writeln(b);
+    // for(let i = 2;i<20;i++) {
+    //     c = a+b;
+    //     a = b;
+    //     b = c;
+    //     document.writeln(c);
+    // }
+    //Bài 4
+    //  let a = 1;
+    //  let b = 1;
+    //  let c = 1;
+    // while (c%100 !== 0) {
+    //         c = a+b;
+    //         a = b;
+    //         b = c;
+    // }
+    // alert(c);
+    //Bài 6
+    //cách 1
+    //  let sum =0;
+    //  for(let i =1; i<=30 ; i++) {
+    //      sum+=i*7;
+    //  }
+    //  alert(sum)
+    //cách 2
+    // let count = 0;
+    // let number = 1;
+    // let sum = 0;
+    // while(count <30) {
+    //     if(number%7 === 0 ) {
+    //         count++;
+    //         document.writeln(number)
+    //         sum+=number;
+    //     }
+    //     number++;
+    // }
+    // alert(sum)
+    //Bài 7
+    // for (let i = 1; i <= 100; i++) {
+    //     if (i % 3 === 0 && i % 5 === 0) {
+    //         document.writeln("FIZZBUZZ");
+    //     } else if (i % 3 === 0) {
+    //         document.writeln("FIZZ")
+    //     } else if (i % 5 === 0) {
+    //         document.writeln("BUZZ")
+    //     } else {
+    //         document.writeln(i)
+    //     }
+    // }
+    //Bài 8
+    function playGame() {
+        let startNumber = parseInt(prompt("Nhập số bắt đầu"))
+        let endNumber = parseInt(prompt("Nhập số kết thúc"));
+        let random = parseInt((Math.random() * (endNumber - startNumber)) + startNumber);
+        let doanXem;
+        let count =0;
+        do {
+            doanXem = parseInt(prompt("Nhập số bạn muốn đoán"));
+            if (doanXem < random) {
+                alert("Số bạn vừa nhập nhỏ hơn. Mời bạn nhập lại")
+            } else if (doanXem > random) {
+                alert("Số bạn vừa nhập lớn hơn. Mời bạn nhập lại")
+            } else {
+                alert("Chúc mừng")
+                break;
+            }
+            count++;
+        } while (count <3)
+    }
+</script>
 </body>
 </html>

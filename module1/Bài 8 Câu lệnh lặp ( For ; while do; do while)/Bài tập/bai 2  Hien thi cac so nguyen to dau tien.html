@@ -6,25 +6,44 @@
 </head>
 <body>
         <script>
-            let number=parseInt(prompt('Nhập vào  số nguyên tố  :'));
-            count=0;
+            // let number=parseInt(prompt('Nhập vào  số nguyên tố  :'));
+            // count=0;
+            //
+            // N=2;
+            // let i;
+            // let text="";
+            // while (count<number) {
+            //     for (i = 2; i < N; i++) {
+            //         if (N % i == 0)
+            //             break;
+            //     }
+            //     if(i==N){
+            //         text=text + N +" ";
+            //         count++;
+            //     }
+            //     N++
+            // }
+            // document.write(number+" So nguyen to can tim la :");
+            // document.write(text);
 
-            N=2;
-            let i;
-            let text="";
+
+            let number = prompt("Mời bạn nhập số lượng số nguyên tố cần hiển thị: ");
+            let count = 0;
+            let temp =2;
             while (count<number) {
-                for (i = 2; i < N; i++) {
-                    if (N % i == 0)
+                let i;
+                for(i = 2; i <= Math.sqrt(temp);i++) {
+                    if(temp%i ==0) {
                         break;
+                    }
                 }
-                if(i==N){
-                    text=text + N +" ";
+                if(i > Math.sqrt(temp)) {
+                    alert(temp+ " là số nguyên tố")
                     count++;
                 }
-                N++
+                temp++;
             }
-            document.write(number+" So nguyen to can tim la :");
-            document.write(text);
+
 
         </script>
 </body>

@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d01740-2343-4727-8688-19c7c404a2dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bài 8 Câu lệnh lặp ( For ; while do; do while)/Bài tập/Bang cuu chuong.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài 8 Câu lệnh lặp ( For ; while do; do while)/Bài tập/bai 2  Hien thi cac so nguyen to dau tien.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài 8 Câu lệnh lặp ( For ; while do; do while)/Luyện tập vong lặp 1/bai 1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài 8 Câu lệnh lặp ( For ; while do; do while)/Thực hành/Vong la long nhau.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài 8 Câu lệnh lặp ( For ; while do; do while)/Thực hành/bai 2 Su dung vong lap while.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài 8 Câu lệnh lặp ( For ; while do; do while)/Thực hành/bai Su dung for.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài 8 Câu lệnh lặp ( For ; while do; do while)/Thực hành/dowhilesample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bài 9 Mảng/Thực hành/Thao tác với mảng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bài 9 Mảng/Thực hành/Tìm giá trị trong mảng.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bài 9 Mảng/Thực hành/Đảo ngược các phần tử trong mảng.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Luyện tập cấu trúc câu đìu kiện 02/Bai tap dieu kien.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Luyện tập cấu trúc câu đìu kiện 02/Bai tap dieu kien.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CASESTUDY/Yeu cau 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/CASESTUDY/Yeu cau 2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Luyện tập cấu trúc câu đk 01/Bai tap.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bai 7 Câu điều kiện If-else; switch- case/Luyện tập cấu trúc câu đk 01/Bai tap.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bài 8 Câu lệnh lặp ( For ; while do; do while)/Bài tập/bai 2  Hien thi cac so nguyen to dau tien.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 8 Câu lệnh lặp ( For ; while do; do while)/Bài tập/bai 2  Hien thi cac so nguyen to dau tien.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bài 8 Câu lệnh lặp ( For ; while do; do while)/Luyện tập vong lặp 1/aa.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 8 Câu lệnh lặp ( For ; while do; do while)/Luyện tập vong lặp 1/aa.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bài 8 Câu lệnh lặp ( For ; while do; do while)/Luyện tập vong lặp 1/bai 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 8 Câu lệnh lặp ( For ; while do; do while)/Luyện tập vong lặp 1/bai 1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bài 8 Câu lệnh lặp ( For ; while do; do while)/Luyện tập vòng lặp 2/Bai 1 In day fibonaccy.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 8 Câu lệnh lặp ( For ; while do; do while)/Luyện tập vòng lặp 2/Bai 1 In day fibonaccy.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bài 8 Câu lệnh lặp ( For ; while do; do while)/Luyện tập vòng lặp 2/bai 2 Tinh giai thua.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 8 Câu lệnh lặp ( For ; while do; do while)/Luyện tập vòng lặp 2/bai 2 Tinh giai thua.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bài 8 Câu lệnh lặp ( For ; while do; do while)/Luyện tập vòng lặp 2/bai 3 In hinh tam giac.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 8 Câu lệnh lặp ( For ; while do; do while)/Luyện tập vòng lặp 2/bai 3 In hinh tam giac.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,8 @@
       <workItem from="1604626012787" duration="17455000" />
       <workItem from="1604748105007" duration="7629000" />
       <workItem from="1604884913141" duration="18677000" />
-      <workItem from="1604970531086" duration="283000" />
+      <workItem from="1604970531086" duration="13921000" />
+      <workItem from="1605056998888" duration="3790000" />
     </task>
     <servers />
   </component>
@@ -83,13 +85,17 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="489" y="188" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1304.768@62.0.1304.768" timestamp="1604154665315" />
-    <state x="493" y="127" key="FileChooserDialogImpl" timestamp="1604936676725">
+    <state x="493" y="127" key="FileChooserDialogImpl" timestamp="1604993082905">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="493" y="127" key="FileChooserDialogImpl/62.0.1304.768@62.0.1304.768" timestamp="1604936676725" />
+    <state x="493" y="127" key="FileChooserDialogImpl/62.0.1304.768@62.0.1304.768" timestamp="1604993082905" />
     <state x="377" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1604911001482">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="377" y="89" width="672" height="678" key="search.everywhere.popup/62.0.1304.768@62.0.1304.768" timestamp="1604911001482" />
+    <state x="436" y="297" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1604990814090">
+      <screen x="62" y="0" width="1304" height="768" />
+    </state>
+    <state x="436" y="297" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/62.0.1304.768@62.0.1304.768" timestamp="1604990814090" />
   </component>
 </project>

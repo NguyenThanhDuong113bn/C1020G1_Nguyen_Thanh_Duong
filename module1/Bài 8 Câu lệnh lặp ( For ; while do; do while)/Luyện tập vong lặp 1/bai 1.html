@@ -21,12 +21,77 @@
 
 <script>
     // Bài 2:
+    //     let a;
+    //      do{
+    //       let a = prompt('Nhap nhiet do:');
+    //         if(a>100)
+    //             alert('Giam nhiet do')
+    //             else if(a<20)
+    //                 alert('Tang nhie do')
+    //                 else
+    //                     alert('Binh thuong')
+    //   }while (a<20 || a>100)
 
-     // do{
-     //     let a = prompt('Nhap nhiet do:');
-     // }while (a<20 || a>100)
-     //        document.write(" Tang nhiet do:"+ a)
+    // bai 3: Hien thi 20 so dau tien trong day fibonaccy
+    // let f0 = 1;
+    // let f1 = 1;
+    // let fn;
+    // let count = 2;
+    //
+    // document.writeln(f0);
+    // document.writeln(f1);
+    //
+    // while(count < 20) {
+    //     fn = f0 + f1;
+    //     document.writeln(fn);
+    //
+    //     f0 = f1;
+    //     f1 = fn;
+    //     count++;
+    // }
+    // Bài 4: Tìm số đầu tiên trong dãy fibonacci chia hết cho 5.
+    //     let a1=1;
+    //     let a2=1;
+    //     let a;
+    //     while (true){
+    //         a=a1+a2;
+    //         if(a % 5===0){
+    //             document.write("The first number in Fibonacci seq divisibled by 5 is : " + a)
+    //
+    //             break;
+    //         }
+    //     a1=a2;
+    //     a2=a
+    //     }
 
+    // Cach 2:
+    let a = 1;
+     let b = 1;
+     let c = 1;
+    while (c%100 !== 0) {
+            c = a+b;
+            a = b;
+            b = c;
+    }
+    alert(c);
+
+    // bai 5:
+    // let f1 = 1;
+    // let f2 = 1;
+    // let fn;
+    //
+    // while (true) {
+    //     fn = f1 + f2;
+    //
+    //     if (fn % 5 === 0) {
+    //         document.write(
+    //             "The first number in Fibonacci seq divisibled by 5 is : " + fn
+    //         );
+    //         break;
+    //     }
+    //     f1 = f2;
+    //     f2 = fn;
+    // }
 
     // Bài 6: Tính tổng của 30 số chia hết cho 7 đầu tiên trong các số tự nhiên.
 
@@ -44,16 +109,19 @@
     // alert(result);
 
 
-    // Bài 7:
-    for (let i=1;i<=100;i++) {
-        if (i % 3 == 0 && i % 5 == 0) {
-            document.write("FizzBuzz ");
-        } else if (i % 5 == 0) {
-            document.write("Buzz ");
-        } else if (i % 3 == 0) {
-            document.write("Fizz ");
-        } else document.write(i + " ");
-    }
+    // // Bài 7:
+    // for (let i=1;i<=100;i++) {
+    //     if (i % 3 == 0 && i % 5 == 0) {
+    //         document.write("FizzBuzz ");
+    //     } else if (i % 5 == 0) {
+    //         document.write("Buzz ");
+    //     } else if (i % 3 == 0) {
+    //         document.write("Fizz ");
+    //     } else document.write(i + " ");
+    // }
+
+
+
 </script>
 </body>
 </html>

@@ -27,17 +27,34 @@
     // alert("Số lớn nhất là: "+max);
 
     // // Bài 5:/
-    let a= parseFloat(prompt("Nhập điểm thi 1 tiết: "));
-    let b= parseFloat(prompt("Nhập điểm thi GK: "));
-    let c= parseFloat(prompt("Nhập điểm thi CK: "));
-    let diemTB = (a+b*2+c*3)/6;
-    if(diemTB>=8)
-        alert("Điểm TB là: "+diemTB +"\n Xếp loại giỏi");
-    else if(diemTB>=6.5)
-        alert("Điểm TB là: "+diemTB + "\n Xếp loại Khá");
-    else if(diemTB>=5)
-        alert("Điểm TB là: "+diemTB + "\n Xếp loại TB");
-    else alert("Học dốt quá con ơiiiiii");
+    // let a= parseFloat(prompt("Nhập điểm thi 1 tiết: "));
+    // let b= parseFloat(prompt("Nhập điểm thi GK: "));
+    // let c= parseFloat(prompt("Nhập điểm thi CK: "));
+    // let diemTB = (a+b*2+c*3)/6;
+    // if(diemTB>=8)
+    //     alert("Điểm TB là: "+diemTB +"\n Xếp loại giỏi");
+    // else if(diemTB>=6.5)
+    //     alert("Điểm TB là: "+diemTB + "\n Xếp loại Khá");
+    // else if(diemTB>=5)
+    //     alert("Điểm TB là: "+diemTB + "\n Xếp loại TB");
+    // else alert("Học dốt quá con ơiiiiii");
+
+    // bai 6:
+    let money = parseInt(prompt("Nhập số tiền cần vay: "));
+    let month = parseInt(prompt("Nhập số tháng cần vay"));
+    let result = 0;
+    if(money<50) {
+        alert("Ít quá không cho vay");
+    } else {
+        if(money<150) {
+            result = money * Math.pow((1 + 0.08),month);
+        } else if(money<500) {
+            result = money * Math.pow((1 + 0.07),month);
+        } else {
+            result = money * Math.pow((1 + 0.05),month);
+        }
+    }
+    alert(result);
 
 </script>
 
