@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Bài 3: Viết một chương trình khai báo một mảng ký tự và kích thước của mảng. -->
+<!--    Chương trình này đếm số ký tự số trong mảng.-->
+<script>
+    let size = parseInt(prompt("Enter size of array : "));
+    let arr = [];
+
+    for (let i = 0; i < size; i++) {
+        arr[i] = prompt("Enter a character :");
+    }
+
+    const NUMBERS = "0123456789";
+
+    let count = 0;
+    for (ch of arr) {
+        if (NUMBERS.indexOf(ch) !== -1) count++;
+    }
+
+    alert("The number of digit-characters in entered array : " + count);
+</script>
+</body>
+</html>

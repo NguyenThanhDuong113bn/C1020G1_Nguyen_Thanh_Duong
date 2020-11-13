@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+        <input type="text" id="nhap">
+        <button style="background-color: white" id="tim" onclick="search()">Search</button>
+        <p id="result"></p>
+
+    <script>
+        let english=["Read","Book","Pen", "ice" ,"love "];
+        let viet=[ "Đọc", "Sách", "Bút","nướcđá", "yêu"];
+        let b;
+        let a;
+        function search() {
+            let a=document.getElementById("nhap").value;
+            for( i=0; i<english.length;i++){
+                if(a==english[i]){
+
+                    b=viet[i]
+                    break;
+                } else b= "Không tìm thấy"
+            }
+            document.getElementById("result").innerHTML=b
+        }
+    </script>
+</body>
+</html>

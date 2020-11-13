@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Bài 1: Viết một chương trình Javascript để nối tất cả các phần tử trong một mảng chuỗi lại với nhau. -->
+<!--    Ví dụ có mảng chuỗi như sau: myColor = ["Red", "Green", "White", "Black"];-->
+
+<!--Bai 2 :Viết một chương trình nhận một số nhập vào và chèn dấu (-) giữa 2  số chẵn. -->
+<!--Ví dụ nếu bạn nhập vào 025468 thì kết quả của chương trình sẽ là 0-254-6-8.-->
+
+<!--Bài 3: Viết một chương trình nhập vào một chuỗi và chuyển các -->
+<!--ký tự chữ thường trong chuỗi vừa nhập sang thành dạng chữ hoa.-->
+
+
+
+
+<script>
+
+    // let a=["Red","Green","White","Black"];
+    // document.write(a.join())
+
+    // let number = prompt("Enter a number : ");
+    //
+    // let result = [number[0]];
+    //
+    // for (let i = 1; i < number.length; i++) {
+    //     if (number[i - 1] % 2 === 0 && number[i] % 2 === 0)
+    //          result.push("-", number[i]);
+    //     else result.push(number[i]);
+    // }
+    //
+    // alert(result.join(""));
+
+
+    let up='ABCDEGHIKLMN0PQRSTUV';
+    let low='abcdeghiklmnopqrstuv';
+    let a=prompt(' Nhap 1 chuoi:');
+    let result=[];
+
+    for (let x=0;x<a.length;x++){
+        let b;
+        for (let i=0;i<up.length;i++){
+            if( a[x]==up[i]){
+                b=a[x].toLowerCase();
+                result.push(b);
+            }
+            else if(a[x]===low[i]){
+                b =  a[x].toUpperCase()
+                result.push(b);
+            }
+        }
+
+    }
+    document.write(result.join(''))
+</script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Bài 2- Viết chương trình khởi tạo mảng số nguyên gồm 10 phần tử khác nhau. -->
+<!--        Chương trình hiển thị ra được phần tử có giá trị lớn nhất trong mảng và vị trí của phần tử đó.-->
+
+</body>
+<h4 id="result"></h4>
+<script>
+    let array= new Array();
+    let str= " ";
+    let max=0;
+    let position=1;  // position: lua chon
+    let result= document.getElementById(" result");
+
+    for(let i=0;i<10;i++){
+        array[i]=Math.round(Math.random()*20);
+
+        str += array[i]+ " ,";
+
+        if (array[i]>=max){
+            max=array[i];
+            position=i;
+        }
+    }
+    str+=" <br>" +" Phan tu lon nhat trong mang la:"+max+ "  vi tri " +(position+1);
+    document.getElementById("result").innerHTML=str;
+
+
+</script>
+</html>

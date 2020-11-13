@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+</head>
+<!--In ra màn hình mảng số nguyên không quá 50 phần tử.-->
+<!--// //          In ra màn hình trung bình cộng các số chia hết cho 3-->
+<body>
+<script>
+    let numbers = [0,2,4,5, 3, 9,18, 15, 3, 4, 5, 82, 74, 86];
+    let sum = 0;
+    let count = 0;
+    let max = 0;
+    let Max = Math.max.apply(Math, numbers);
+    let Min = Math.min.apply(Math, numbers);
+
+      for (number of numbers) {
+          if (number % 3 === 0) {
+              sum += number;
+              count++;
+          }}
+
+      if (count === 0) alert("Number divisible by 3 does not exist !");
+      else {
+          let average = sum / count;
+          alert("The array of numbers : " + numbers);
+          alert("The average of divisible-by-3-numbers is :" + average);
+          alert('Max co gia tri la:' +Max);
+          alert('Min co gia tri la:' +Min);
+
+      }
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+

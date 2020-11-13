@@ -6,8 +6,24 @@
 </head>
 <body>
     <script>
-        let value=prompt('Enter a number:')
+
+        let value = prompt("Enter a number: ");
+        let numbers = [-3, 5, 1, 3, 2, 10];
+        let  check =false
+        for (let i = 0; i < numbers.length; i++) {
+            if (value == numbers[i]) {
+                check=true;
+                alert("are in the array, located in position:"+i);
+                break;
+            }
+        }
+        if (!check){
+           alert(" ko")
+        }
+
     </script>
 
 </body>
+
+
 </html>

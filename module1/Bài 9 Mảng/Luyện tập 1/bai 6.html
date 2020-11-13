@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!--Bài 6- Viết chương trình khởi tạo/nhập vào một mảng số nguyên gồm 10 phần tử, nhập/tạo phần tử số nguyên V.-->
+<!--        Chương trình tìm xem V có nằm trong mảng số nguyên không? -->
+<!--        Nếu V thuộc mảng số nguyên thì in ra "V is in the array" còn lại in ra "V is not in the array".-->
+<script>
+    let size = parseInt(prompt("Enter size of array : "));
+    let numbers = [];
+
+    for (let i = 0; i < size; i++) {
+        numbers[i] = parseInt(prompt("Enter element in " + i + " position"));
+    }
+
+    let input = prompt("Enter a number : ");
+
+    let isContain = false;
+    for (number of numbers) {
+        if (input == number) {
+            isContain = true;
+            break;
+        }
+    }
+
+    if (isContain) alert("The entered number is in array !");
+    else alert("The entered number is not in array !");
+</script>
+</body>
+</html>
