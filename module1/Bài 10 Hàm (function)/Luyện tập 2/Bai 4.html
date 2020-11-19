@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+<!--Viết hàm kiểm tra xem ký tự nhập vào có phải là ký tự số không.-->
+<!--Nếu là ký tự số hàm trả về true, ngược lại trả về false.-->
+<script>
+    let ch = prompt("Enter a character : ");
+    const NUMBERS = "0123456789";
+
+    if (isNumber(ch)) alert("True ");
+    else alert("False ");
+
+    function isNumber(ch) {
+        if (NUMBERS.indexOf(ch) !== -1) return true;
+
+        return false;
+    }
+</script>
 </body>
 </html>

@@ -2,9 +2,42 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+
+<h3> Nhap vao Meters </h3>
+        <input id="feet" type="number" >
+        <button onclick="meterToFeet()">Meter to feat </button> <br>
+        <p id="result1"></p>
+
+<h3> Nhap vao Feets</h3>
+        <input id="meter" type="number">
+        <button onclick="feetToMeter()">Feet to meter</button>
+        <p id="result2"></p>
+
+<script>
+
+    function meterToFeet() {
+        let c=parseInt(document.getElementById("feet").value);
+        let a=(3279*c);
+        alert(a);
+
+
+    }
+    function feetToMeter() {
+        let b=parseInt(document.getElementById("meter").value);
+        let a=(0.305*b);
+        alert(a);
+
+
+    }
+
+
+
+</script>
+
+
+
 </body>
 </html>

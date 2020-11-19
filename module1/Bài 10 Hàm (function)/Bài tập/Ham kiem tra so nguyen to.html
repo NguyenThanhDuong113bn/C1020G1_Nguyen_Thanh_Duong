@@ -2,9 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>$Title$</title>
+    <title>Title</title>
 </head>
 <body>
-$END$
+    <script>
+        let a= prompt("Nhap vào một số nguyên tố :")
+        let b= prime (a)
+        if(b==true) {
+            alert('Là số nguyên tố:')
+        }else {
+            alert(' Khoong phai la so nguyen to:')
+        }
+
+        function prime(a) {
+            for (let i=2 ;i<a ; i++){
+                if(a%i==0){
+                    return false;
+                }
+            }
+                return true;
+
+
+        }
+    </script>
 </body>
 </html>
