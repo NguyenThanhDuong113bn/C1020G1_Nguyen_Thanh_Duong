@@ -2,32 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c5d01740-2343-4727-8688-19c7c404a2dc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Bài 11 Hướng đối tượng ( Object Oriented Programming)/Bài tập/Xay dung lop mo ta hinh chu nhat.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài 11 Hướng đối tượng ( Object Oriented Programming)/Thực hành/Funny cricle.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài 11 Hướng đối tượng ( Object Oriented Programming)/Thực hành/Xây dựng lớp date.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bài 11 Hướng đối tượng ( Object Oriented Programming)/Thực hành/Xây dựng lớp hình tròn.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Bài 11 Hướng đối tượng ( Object Oriented Programming)/Bài tập/Xây dựng lớp mô tả Temperature.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ôn tập module 1/bai 1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ôn tập module 1/bai 2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Bài tập/Chuyen doi giua feet va meters.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Bài tập/Chuyen doi giua feet va meters.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Bài tập/Ham kiem tra so nguyen to.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Bài tập/Ham kiem tra so nguyen to.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 1/Bai 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 1/Bai 1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 1/Bai 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 1/Bai 2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 1/Bai 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 1/Bai 3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 1/Bai 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 1/Bai 4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 1/Bai 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 1/Bai 5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 1/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 1/Test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 2/Bai 1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 2/Bai 1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 2/Bai 2.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 2/Bai 2.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 2/Bai 3.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 2/Bai 3.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 2/Bai 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 2/Bai 4.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 2/Bai 5.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 2/Bai 5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 2/Bai 6.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 2/Bai 6.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 2/Bai 7.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 2/Bai 7.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 2/Bai 8.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 2/Bai 8.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 2/Bai 9.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Luyện tập 2/Bai 9.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Thực hành/Chuyen doi nhiet do.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Thực hành/Chuyen doi nhiet do.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Thực hành/Tìm giá trị nhỏ nhất của mảng.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Thực hành/Tìm giá trị nhỏ nhất của mảng.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Bài 10 Hàm (function)/Thực hành/Tạo và gọi hàm.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 10 Hàm (function)/Thực hành/Tạo và gọi hàm.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CASESTUDY/Yeu cau 4.html" beforeDir="false" afterPath="$PROJECT_DIR$/CASESTUDY/Yeu cau 4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Bài 11 Hướng đối tượng ( Object Oriented Programming)/Bài tập/Xay dung lop mo ta hinh chu nhat.html" beforeDir="false" afterPath="$PROJECT_DIR$/Bài 11 Hướng đối tượng ( Object Oriented Programming)/Bài tập/Xay dung lop mo ta hinh chu nhat.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +85,7 @@
       <workItem from="1605442009661" duration="8848000" />
       <workItem from="1605488120110" duration="13047000" />
       <workItem from="1605582792077" duration="4979000" />
-      <workItem from="1605747192350" duration="583000" />
+      <workItem from="1605747192350" duration="3851000" />
     </task>
     <servers />
   </component>
@@ -118,10 +97,10 @@
       <screen x="62" y="0" width="1304" height="768" />
     </state>
     <state x="489" y="188" key="#com.intellij.fileTypes.FileTypeChooser/62.0.1304.768@62.0.1304.768" timestamp="1604154665315" />
-    <state x="493" y="127" key="FileChooserDialogImpl" timestamp="1605747489209">
+    <state x="493" y="127" key="FileChooserDialogImpl" timestamp="1605751598651">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
-    <state x="493" y="127" key="FileChooserDialogImpl/62.0.1304.768@62.0.1304.768" timestamp="1605747489209" />
+    <state x="493" y="127" key="FileChooserDialogImpl/62.0.1304.768@62.0.1304.768" timestamp="1605751598651" />
     <state width="1283" height="192" key="GridCell.Tab.0.bottom" timestamp="1605176094283">
       <screen x="62" y="0" width="1304" height="768" />
     </state>
